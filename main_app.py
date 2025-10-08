@@ -9,7 +9,7 @@ import qrcode
 from PIL import Image, ImageTk
 import io
 
-# Define a simulated user database with 2FA secrets
+# Define a simulated user database with 2FA 
 
 
 USERS = {
@@ -281,4 +281,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = PasswordStrengthCheckerApp(root)
     root.mainloop()
+
 
