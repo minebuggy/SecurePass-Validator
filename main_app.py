@@ -10,6 +10,8 @@ from PIL import Image, ImageTk
 import io
 
 # Define a simulated user database with 2FA secrets
+
+
 USERS = {
     "admin": {
         "password": "AdminPassword123!",
@@ -279,3 +281,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = PasswordStrengthCheckerApp(root)
     root.mainloop()
+
