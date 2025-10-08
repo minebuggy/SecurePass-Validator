@@ -9,6 +9,9 @@ import qrcode
 from PIL import Image, ImageTk
 import io
 
+#simulating the password (for the Sonar Cube)
+SECRET_KEY = "this_is_a_very_weak_and_obvious_secret_key" 
+
 # Define a simulated user database with 2FA 
 
 
@@ -281,5 +284,6 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = PasswordStrengthCheckerApp(root)
     root.mainloop()
+
 
 
